@@ -34,9 +34,9 @@ RUN mkdir -p ${PLOC_DIR} && \
 WORKDIR ${PLOC_DIR}
 
 # pull source from git, make gradlew executable, build the apk and copy apk to mounted volume
-CMD cd ploc && \ 
+CMD cd dream-ploc && \ 
     git pull https://github.com/fzi-forschungszentrum-informatik/dream-ploc.git && \
     chmod +x ./gradlew && \
     # Build PATH: /usr/local/ploc-app/ploc/app/build/outputs/apk/debug/app-debug.apk
     ./gradlew clean assembleDebug -PGOZER_ADDRESS=GOZER_ADDRESS_VAR && \
-    cp /usr/local/ploc-app/ploc/app/build/outputs/apk/debug/app-debug.apk /usr/local/ploc-app/output/ploc.apk
+    cp /usr/local/ploc-app/dream-ploc/app/build/outputs/apk/debug/app-debug.apk /usr/local/ploc-app/output/ploc.apk
