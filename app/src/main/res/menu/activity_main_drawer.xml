@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+    <item android:title="@string/nav_item_discover">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_drawer_publications"
+                    android:icon="@drawable/ic_book_open_black_24dp"
+                    android:title="@string/nav_item_publications" />
+                <item
+                    android:id="@+id/nav_drawer_experts"
+                    android:icon="@drawable/ic_people_black_24dp"
+                    android:title="@string/nav_item_experts" />
+                <item
+                    android:id="@+id/nav_drawer_reviews"
+                    android:icon="@drawable/ic_error_black_24dp"
+                    android:title="@string/nav_item_reviews" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_item_bookmarks">
+        <menu>
+            <group
+                android:id="@+id/bookmarks_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_drawer_saved_publications"
+                    android:icon="@drawable/ic_bookmark_black_24dp"
+                    android:title="@string/nav_item_saved_publications" />
+                <item
+                    android:id="@+id/nav_drawer_saved_experts"
+                    android:icon="@drawable/ic_star_black_24dp"
+                    android:title="@string/nav_item_saved_experts" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_item_collections">
+        <menu>
+            <group
+                android:id="@+id/collections_group"
+                android:checkableBehavior="single"></group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_item_profile">
+        <menu>
+            <group
+                android:id="@+id/account_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_drawer_interests"
+                    android:icon="@drawable/ic_add_circle_black_24dp"
+                    android:title="@string/nav_item_interests" />
+                <item
+                    android:id="@+id/nav_drawer_profile"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="@string/nav_item_account" />
+            </group>
+        </menu>
+    </item>
+</menu>

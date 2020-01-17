@@ -1,0 +1,194 @@
+<resources>
+    <!--Global App Strings-->
+    <string name="app_name">ploc</string>
+    <string name="log_tag">DEBUG_PLOC</string>
+    <string name="nav_header_title">pocket library for open content</string>
+    <string name="nav_header_title_uppercase">POCKET LIBRARY FOR OPEN CONTENT</string>
+
+    <!--Error Strings-->
+    <string name="network_error">A network error occurred: </string>
+    <string name="interests_error">Please define your research interests to stay updated about the latest publications in your field.</string>
+    <string name="standard_error">An Error occurred: %1$s</string>
+
+    <!--Navigation Strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_item_publications">Publications</string>
+    <string name="nav_item_experts">Experts</string>
+    <string name="nav_item_reviews">Feedback</string>
+    <string name="nav_item_bookmarks">Bookmarks</string>
+    <string name="nav_item_interests">Interests</string>
+    <string name="nav_item_saved_publications">Saved publications</string>
+    <string name="nav_item_saved_experts">Saved experts</string>
+    <string name="nav_item_collections">Collections</string>
+    <string name="nav_item_discover">Discover</string>
+    <string name="nav_item_profile">Profile</string>
+    <string name="nav_item_history">History</string>
+    <string name="nav_item_account">My Account</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--ActionButton Strings-->
+    <string name="action_settings">Settings</string>
+    <string name="action_history">Show seen</string>
+    <string name="action_share">Share</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_done">Done</string>
+    <string name="action_assign">Assign to collections</string>
+    <string name="action_search">Search</string>
+    <string name="action_next_step">Give Feedback</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!--ActionBar Title Strings-->
+    <string name="title_activity_main">ploc</string>
+    <string name="title_activity_interests">Interests</string>
+    <string name="title_activity_bookmarks">Saved publications</string>
+    <string name="title_activity_experts_bookmarks">Saved experts</string>
+    <string name="title_activity_experts">Experts</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_orcid">Sign into ORCID or Register</string>
+    <string name="title_activity_pdf">PDF Page: %1$d of %2$d</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_profile">My Account</string>
+    <string name="title_activity_no_interests">Define your interests</string>
+    <string name="title_activity_publications">Research in my field</string>
+    <string name="title_activity_collection_filter">Collection: %1$s</string>
+
+    <!--Button Strings-->
+    <string name="button_ok">OK</string>
+    <string name="button_apply">Apply</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_reload">RELOAD</string>
+    <string name="button_undo">UNDO</string>
+    <string name="button_add_collection">ADD</string>
+    <string name="button_skip_onboarding">Skip</string>
+    <string name="button_define_onboarding">Define interests</string>
+    <string name="button_text_previous_page_pdf_view_fragment">Previous Page</string>
+    <string name="button_text_next_page_pdf_view_fragment">Next Page</string>
+    <string name="button_text_give_feedback_pdf_view_fragment">Give feedback</string>
+    <string name="button_text_delete_profile_fragment">DELETE PROFILE</string>
+    <string name="button_text_save_feedback_rating">Save rating to the blockchain</string>
+    <string name="button_text_login_sign_in_fragment">Login</string>
+
+    <!--Section Titles Strings-->
+    <string name="section_title_search_subjects">Choose labels that define your research interest</string>
+    <string name="section_title_chosen_subjects">Based on your chosen subjects</string>
+    <string name="section_title_result_count_beginning">we found </string>
+    <string name="section_title_result_count_mid">publications.</string>
+    <string name="section_title_result_count_end">View them in your publication feed.</string>
+
+    <!--Hint Strings-->
+    <string name="hint_search_subjects">e.g. Financial Crisis 2007, Banking Crisis</string>
+    <string name="hint_publication_year">Last publication: %1$d </string>
+    <string name="hint_publication_count">Publications: %1$d</string>
+    <string name="hint_affiliation">Affiliation: %1$s</string>
+    <string name="hint_orcid_id">ORCID: %1$s</string>
+    <string name="hint_filter_type">Type:</string>
+    <string name="hint_filter_interests">Interests:</string>
+    <string name="hint_filter_examined">Examined only:</string>
+    <string name="hint_filter_last_publication">Published last two years:</string>
+    <string name="hint_mail_sign_in_fragment">Email or Research ID</string>
+    <string name="hint_password_sign_in_fragment">Research ID Password</string>
+
+    <!-- Snackbar -->
+    <string name="message_loading">Loading…</string>
+    <string name="message_no_results">No %1$s found, please refine…</string>
+    <string name="message_sharing_intent">Look what I have found on ploc: \n\n</string>
+    <string name="message_snackbar_delete_bookmark">Bookmark %1$s deleted.</string>
+    <string name="message_snackbar_bookmark_restored">Restored.</string>
+    <string name="message_bookmarked">Bookmarked</string>
+    <string name="message_feedbacked">Feedback saved</string>
+    <string name="message_unbookmarked">Unbookmarked</string>
+    <string name="message_deleted">Deleted</string>
+    <string name="message_dislike">Not interested. Similar publications will no longer appear in your feed.</string>
+    <string name="message_loading_user">Please wait…loading user.</string>
+    <string name="message_loading_subjects">Please wait…loading subjects.</string>
+    <string name="message_interests_added">Interest added.</string>
+    <string name="message_interests_deleted">Interest deleted.</string>
+    <string name="snackbar_message_no_doi">Unfortunately there is no link available.</string>
+    <string name="snackbar_message_new_interests">New interests set defined.</string>
+    <string name="snackbar_message_download_started">Download started</string>
+    <string name="notification_download_message">ploc - downloading PDF</string>
+    <string name="snackbar_message_login_failed">Login failed</string>
+    <string name="snackbar_message_download_completed">Download completed</string>
+    <string name="snackbar_notification_new_interests">New interests set defined.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_title_no_experts_saved">No experts saved</string>
+    <string name="dialog_text_no_experts_saved">Bookmark experts with a swipe to the right to make them easier to find later.</string>
+    <string name="dialog_title_no_publications_saved">No publications saved</string>
+    <string name="dialog_text_no_publications_saved">Bookmark publications with a swipe to the right to make them easier to find later.</string>
+    <string name="dialog_title_no_experts_search">No experts found</string>
+    <string name="dialog_text_no_experts_search">Unfortunately we did not find any entries for your expert search, please refine your search query.</string>
+    <string name="dialog_title_no_pdf">No PDF link found</string>
+    <string name="dialog_text_no_pdf">Unfortunately we could not find a PDF link for this paper, because this is a prototype we are now displaying a placeholder PDF.</string>
+    <string name="dialog_title_pdf_error">PDF corrupted</string>
+    <string name="dialog_text_pdf_error">Unfortunately the PDF could not be loaded please try another publication.</string>
+    <string name="dialog_title_no_permission_write">No permission to write</string>
+    <string name="dialog_text_no_permission_write">Unfortunately we could not download the PDF because we have no permission to write on your device.</string>
+    <string name="dialog_title_no_publications_search">No publications found</string>
+    <string name="dialog_text_no_publications_search">Unfortunately we did not find any entries for your publication search, please refine your search query.</string>
+    <string name="dialog_title_no_publications_collection">No publications in the collection</string>
+    <string name="dialog_text_no_publications_collection">Add publications to a collection with a long click to sort them.</string>
+    <string name="dialog_text_no_collections">You haven\'t created any collections yet. Create new collections through the side menu.</string>
+    <string name="dialog_text_add_collection_title">Add new collection</string>
+    <string name="dialog_text_add_collection_positive">Add</string>
+    <string name="dialog_text_add_edit_collection_negative">Cancel</string>
+    <string name="dialog_text_add_edit_collection_error">You need to enter a collection name.</string>
+    <string name="dialog_text_edit_collection_title">"Edit collection name"</string>
+    <string name="dialog_text_edit_collection_positive">Edit</string>
+    <string name="dialog_text_edit_collection_neutral">Delete</string>
+    <string name="dialog_text_assign_collections_error_title">No collections found!</string>
+    <string name="dialog_text_assign_collections_title">Assign collections to bookmark</string>
+    <string name="dialog_text_assign_collections_negative">Cancel</string>
+    <string name="dialog_message_no_pdf">Unfortunately there is no PDF available.</string>
+
+    <!-- Image Content Descriptions -->
+    <string name="description_record_type">Type of the shown record</string>
+
+    <!--Progress Strings-->
+    <string name="progress_dialog_pdf_title">Loading PDF</string>
+    <string name="progress_dialog_pdf_text">Please wait...</string>
+    <string name="progress_message_login">Authenticating…</string>
+
+    <!--On boarding Strings-->
+    <string name="on_boarding_section_one_title">Define interests</string>
+    <string name="on_boarding_section_two_title">Bookmark publications</string>
+    <string name="on_boarding_section_three_title">Find experts</string>
+    <string name="on_boarding_section_four_title">Bookmark experts</string>
+    <string name="on_boarding_section_one_text">Select the labels that define your research interests best.</string>
+    <string name="on_boarding_section_two_text">Swipe right to bookmark a publication or left to remove it from your feed and never see similar content in future.</string>
+    <string name="on_boarding_section_three_text">The expert feed shows relevant experts in your feed.</string>
+    <string name="on_boarding_section_four_text">Swipe right to bookmark an expert profile, swipe left to delete the item.</string>
+
+    <!--Misc Strings-->
+    <string name="placeholder_no_records">No Publications to display</string>
+    <string name="placeholder_details_comments">The comment functionality is not yet activated.</string>
+    <string name="placeholder_details_feedback">There is no feedback for this record yet.</string>
+    <string name="rating_overview_relevance">%1$d of %2$d experts rated the relevance positive.</string>
+    <string name="rating_overview_presentation">%1$d of %2$d experts rated the presentation positive.</string>
+    <string name="rating_overview_methodology">%1$d of %2$d experts rated the methodology positive.</string>
+    <string name="details_tab_title_tags">TAGS</string>
+    <string name="details_tab_title_comments">COMMENTS</string>
+    <string name="details_tab_title_feedback">FEEDBACK</string>
+    <string name="card_view_info_separator">•</string>
+    <string name="section_format">Page %1$d</string>
+    <string name="unknown">Unknown</string>
+    <string name="subject_delimiter">", "</string>
+    <string name="identicon_hash_algo">MD5</string>
+    <string name="headline_rating">In order to evaluate the publication, select the points that you think have been positively implemented.</string>
+    <string name="error_record_not_loaded">Error while loading this record.</string>
+    <string name="interest_result_count_zero">0</string>
+    <string name="feature_information_sign_in_fragment">To use the Feedback features of ploc, you need to link your Research ID Account.</string>
+    <string name="headline_sign_in_fragment">RESEARCH IDENTIFIER</string>
+    <string name="layout_error_login_username">Please enter a valid email address or RiD.</string>
+    <string name="layout_error_login_password">The password must be between 4 and 10 alphanumeric characters</string>
+    <string name="title_relevance_rating_fragment">Relevance</string>
+    <string name="title_methodology_rating_fragment">Methodology</string>
+    <string name="title_presentation_rating_fragment">Presentation</string>
+    <string name="text_relevance_rating_fragment">Is the publication a current topic and is it relevant in this field? Have new insights been gained?</string>
+    <string name="text_presentation_rating_fragment">Has the publication been written in a form appropriate for these scientific disciplines? Is the writing understandable and clearly written? Are all graphics easy to read and contribute to an understanding of the matter?</string>
+    <string name="text_methodology_rating_fragment">Are the applied methods described in a sufficient detail way? Is the Have the results of the publication been produced by methods that are recognized and proven in related disciplines?</string>
+    <string name="sign_up_link_sign_in_fragment">No account yet? Create one</string>
+
+</resources>

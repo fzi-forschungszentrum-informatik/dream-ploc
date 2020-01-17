@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ui.activity.FeedbackActivity">
+    <item
+        app:showAsAction="always|withText"
+        android:id="@+id/action_next_step"
+        android:icon="@drawable/ic_rate_review_white_24dp"
+        android:title="@string/action_next_step"/>
+
+</menu>

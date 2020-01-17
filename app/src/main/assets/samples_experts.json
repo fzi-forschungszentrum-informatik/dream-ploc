@@ -1,0 +1,155 @@
+[
+  {
+      "first_name": "Albert",
+      "family_name": "Einstein",
+      "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+      "authentication_provider": "ORCID",
+      "keywords": [
+        {
+          "id": 22,
+          "name": "Physics"
+        },
+        {
+          "id": 23827,
+          "name": "Theories"
+        }
+      ],
+      "profile_link": "https://orcid.org/0000-0003-1847-0003",
+      "institution": "ETH Zürich"
+  },
+  {
+      "first_name": "Ada",
+      "family_name": "Lovelace",
+      "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+      "authentication_provider": "ResearchGate",
+      "keywords": [
+        {
+          "id": 22,
+          "name": "Programming"
+        },
+        {
+          "id": 23827,
+          "name": "Analytical Engine"
+        }
+      ],
+      "profile_link": "https://orcid.org/0000-0003-1847-0003",
+      "institution": "University College London"
+  },
+  {
+      "first_name": "Alan",
+      "family_name": "Turing",
+      "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+      "authentication_provider": "ResearchGate",
+      "keywords": [
+        {
+          "id": 22,
+          "name": "Logic"
+        },
+        {
+          "id": 23827,
+          "name": "Cryptography"
+        }
+      ],
+      "profile_link": "https://orcid.org/0000-0003-1847-0003",
+      "institution": "University of Manchester"
+
+  },
+  {
+      "first_name": "Andrew S.",
+      "family_name": " Tanenbaum",
+      "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+      "authentication_provider": "ResearchGate",
+      "keywords": [
+        {
+          "id": 22,
+          "name": "Computer Networks"
+        },
+        {
+          "id": 23827,
+          "name": "Operation Systems"
+        }
+      ],
+      "profile_link": "https://orcid.org/0000-0003-1847-0003",
+      "institution": " Vrije Universiteit Amsterdam"
+  },
+  {
+      "first_name": "Satoshi",
+      "family_name": "Nakamoto",
+      "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+      "authentication_provider": "ResearchGate",
+      "keywords": [
+        {
+          "id": 22,
+          "name": "Digital currencies"
+        },
+        {
+          "id": 23827,
+          "name": "Cryptography"
+        },
+        {
+          "id": 123,
+          "name": "Remaining Unknown"
+        }
+      ],
+      "profile_link": "https://orcid.org/0000-0003-1847-0003",
+      "institution": "The Internet"
+  },
+  {
+    "first_name": "Judith",
+    "family_name": "Butler",
+    "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+    "authentication_provider": "ResearchGate",
+    "keywords": [
+      {
+        "id": 22,
+        "name": "Feminism"
+      },
+      {
+        "id": 23827,
+        "name": "Continental philosophy"
+      },
+      {
+        "id": 123,
+        "name": "Critical theory"
+      }
+    ],
+    "profile_link": "https://orcid.org/0000-0003-1847-0003",
+    "institution": "University of California, Berkeley"
+  },
+  {
+    "first_name": "Galileo",
+    "family_name": "Galilei",
+    "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+    "authentication_provider": "ResearchGate",
+    "keywords": [
+      {
+        "id": 22,
+        "name": "Observational Astronomy"
+      },
+      {
+        "id": 23827,
+        "name": "Scientific Method"
+      }
+    ],
+    "profile_link": "https://orcid.org/0000-0003-1847-0003",
+    "institution": "University of Padua"
+  },
+  {
+    "first_name": "Marie",
+    "family_name": "Curie",
+    "authentication_token": "sad56f1asdf98sad6fa1dfas8df47e",
+    "authentication_provider": "ResearchGate",
+    "keywords": [
+      {
+        "id": 22,
+        "name": "Radioactivity"
+      },
+      {
+        "id": 23827,
+        "name": "Chemistry"
+      }
+    ],
+    "profile_link": "https://orcid.org/0000-0003-1847-0003",
+    "institution": "École normale supérieure de jeunes filles"
+  }
+]

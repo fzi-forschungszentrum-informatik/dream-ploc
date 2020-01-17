@@ -1,0 +1,39 @@
+<resources>
+    <!-- Globals dimensions -->
+    <dimen name="default_margin_large">16dp</dimen>
+    <dimen name="default_margin_medium">12dp</dimen>
+    <dimen name="default_margin_small">10dp</dimen>
+
+    <!-- Chip dimensions -->
+    <dimen name="default_chip_spacing">4dp</dimen>
+
+    <!-- Activity margins -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!-- Button margins -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- NavigationDrawer dimensions -->
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!-- CardView dimensions -->
+    <dimen name="card_view_margin">8dp</dimen>
+    <dimen name="card_view_margin_small">4dp</dimen>
+    <dimen name="card_view_padding">16dp</dimen>
+    <dimen name="card_view_elevation">100dp</dimen>
+    <dimen name="card_view_corner_radius">4dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subtitle_one">16sp</dimen>
+    <dimen name="text_size_subtitle_two">14sp</dimen>
+    <dimen name="text_size_headline">20sp</dimen>
+
+    <!-- Misc -->
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
+    <dimen name="zero_margin">0dp</dimen>
+</resources>

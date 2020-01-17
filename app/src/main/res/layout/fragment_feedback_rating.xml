@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feedback_rating_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="?actionBarSize"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".ui.fragment.FeedbackRatingFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAppearance="@style/Body1"
+        android:text="@string/headline_rating" />
+
+    <TextView
+        android:id="@+id/text_view_relevance_title_rating_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_relevance_rating_fragment"
+        android:textAppearance="@style/Headline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/text_view_relevance_text_rating_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="9"
+            android:text="@string/text_relevance_rating_fragment"
+            android:textAppearance="@style/Body2" />
+
+        <CheckBox
+            android:id="@+id/check_box_relevance_rating_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccentAlternative"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_presentation_title_rating_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_presentation_rating_fragment"
+        android:textAppearance="@style/Headline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/text_view_presentation_text_rating_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="9"
+            android:text="@string/text_presentation_rating_fragment"
+            android:textAppearance="@style/Body2" />
+
+        <CheckBox
+            android:id="@+id/check_box_presentation_rating_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccentAlternative"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_methodology_title_rating_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_methodology_rating_fragment"
+        android:textAppearance="@style/Headline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/text_view_methodology_text_rating_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="9"
+            android:text="@string/text_methodology_rating_fragment"
+            android:textAppearance="@style/Body2" />
+
+        <CheckBox
+            android:id="@+id/check_box_methodology_rating_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccentAlternative"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:id="@+id/button_save_feedback_rating_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/button_text_save_feedback_rating"
+        android:textColor="@color/colorWhite"
+        app:icon="@drawable/ic_done_white_24dp"
+        app:iconGravity="textStart"
+        app:backgroundTint="@color/colorAccent"
+        app:iconTint="@color/colorWhite" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon and color selection for the bottom navigation bar -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/ic_error_white_24dp" android:color="@color/colorWhite" />
+    <item android:state_checked="false" android:state_enabled="true"  android:drawable="@drawable/ic_error_outline_white_24dp" android:color="@color/colorWhiteMediumEmphasis" />
+    <item android:state_enabled="false"  android:drawable="@drawable/ic_error_outline_white_24dp" android:color="@color/colorWhiteDisabled" />
+</selector>

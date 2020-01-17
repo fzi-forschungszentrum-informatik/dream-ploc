@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_drawer_bookmarked_publications" type="id" />
+    <item name="nav_drawer_bookmarked_experts" type="id" />
+</resources>

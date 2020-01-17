@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_interest_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.InterestsFragment">
+
+    <TextView
+        android:id="@+id/text_view_headline_interest_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/section_title_search_subjects"
+        android:textColor="@color/colorTextHighEmphasis"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/auto_complete_search_interest_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:hint="@string/hint_search_subjects"
+        android:imeOptions="actionDone"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/text_view_underline_one_interest_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/section_title_chosen_subjects"
+        android:textColor="@color/colorTextHighEmphasis"
+        android:textStyle="bold" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group_subjects_interest_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        tool:chipSpacingHorizontal="5dp"
+        tool:chipSpacingVertical="5dp" >
+    </com.google.android.material.chip.ChipGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_underline_two_interest_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:text="@string/section_title_result_count_beginning"
+                android:textColor="@color/colorTextHighEmphasis"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_result_count_interest_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:text="@string/interest_result_count_zero"
+                android:textSize="20sp"
+                android:textColor="@color/colorTextHighEmphasis"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_underline_three_interest_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:text="@string/section_title_result_count_mid"
+                android:textColor="@color/colorTextHighEmphasis"
+                android:textStyle="bold" />
+        </LinearLayout>
+    <TextView
+        android:id="@+id/text_view_underline_four_interest_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/section_title_result_count_end"
+        android:textColor="@color/colorTextHighEmphasis"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_interest_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|center_vertical" />
+</LinearLayout>

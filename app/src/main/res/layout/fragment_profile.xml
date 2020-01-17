@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_fragment"
+    tools:context=".ui.fragment.ProfileFragment">
+
+    <data>
+        <variable
+            name="expertProfile"
+            type="de.fzi.dream.ploc.data.structure.entity.ExpertProfile" />
+        <variable
+            name="userProfile"
+            type="de.fzi.dream.ploc.data.structure.entity.User" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_identifier_profile_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@{`Research ID: ` + expertProfile.orcid}"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_guid_profile_fragment"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_guid_profile_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@{`GUID: ` + userProfile.guid}"
+            app:layout_constraintBottom_toTopOf="@+id/button_delete_profile_fragment"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/text_view_identifier_profile_fragment" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_delete_profile_fragment"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/button_text_delete_profile_fragment"
+            android:textColor="@color/colorWhite"
+            app:backgroundTint="@color/colorError"
+            app:icon="@drawable/ic_delete_white_24dp"
+            app:iconTint="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

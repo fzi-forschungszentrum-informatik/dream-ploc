@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expert_detail_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.ExpertDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_marginBottom="@dimen/default_margin_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin_small"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/image_view_identicon_expert_detail_fragment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_margin"
+                android:layout_weight="6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_view_name_expert_detail_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceHeadline1"
+                    android:textColor="@color/colorTextHighEmphasis"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_orcid_expert_detail_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextMediumEmphasis"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text_view_last_activity_expert_detail_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextMediumEmphasis"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text_view_publication_count_expert_detail_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextMediumEmphasis"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/text_view_affiliation_expert_detail_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/SubtitleOne"
+                    android:textColor="@color/colorTextMediumEmphasis"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_subjects_expert_detail_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            />
+        <ImageView
+            style="@style/IconButton"
+            android:id="@+id/image_view_expansion_indicator_expert_detail_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin_small"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:tint="@android:color/darker_gray" />
+
+        <de.fzi.dream.ploc.ui.component.NonScrollableListView
+            android:id="@+id/non_scrollable_list_records_expert_detail_fragment"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin_large"
+            android:layout_height="match_parent"
+            android:dividerHeight="0dp"
+            android:divider="@null" />
+    </LinearLayout>
+</ScrollView>

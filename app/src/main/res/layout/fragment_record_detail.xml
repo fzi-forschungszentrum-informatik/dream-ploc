@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    tools:context=".ui.fragment.RecordDetailFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/record_type_icon_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:contentDescription="@string/description_record_type"
+                    android:src="@drawable/ic_school_black_24dp" />
+
+                <TextView
+                    android:id="@+id/record_type_text_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="6dp"
+                    android:gravity="center_vertical"
+                    android:textAppearance="@style/Caption" />
+
+                <TextView
+                    android:id="@+id/info_separator_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="6dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/card_view_info_separator"
+                    android:textAppearance="@style/Caption" />
+
+                <TextView
+                    android:id="@+id/record_year_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="6dp"
+                    android:gravity="center_vertical"
+                    android:textAppearance="@style/Caption" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/publication_title_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Headline"
+                android:textColor="@color/colorTextHighEmphasis" />
+
+            <TextView
+                android:id="@+id/record_creators_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="@dimen/default_margin_large"
+                android:gravity="center_vertical"
+                android:text="Loading details...."
+                android:textAppearance="@style/Caption" />
+
+            <TextView
+                android:id="@+id/abstract_text_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:textColor="@color/colorTextHighEmphasis"
+                android:textSize="16sp" />
+
+            <!--android:justificationMode="inter_word"-->
+            <ImageView
+                android:id="@+id/expandable_indicator_detail"
+                style="@style/IconButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin_small"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                android:tint="@android:color/darker_gray" />
+
+
+            <!--<ListView-->
+                <!--android:id="@+id/options_detail"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="@dimen/default_margin_large" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c7a13a"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/link_button"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LINK TO PAPER"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                app:backgroundTint="#c7a13a"
+                app:cornerRadius="0dp"
+                app:iconGravity="textStart"
+                app:icon="@drawable/ic_link_white_24dp"
+                app:iconTint="@color/colorWhite" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/download_button"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DOWNLOAD PDF"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                app:iconGravity="textStart"
+                app:backgroundTint="#c7a13a"
+                app:cornerRadius="0dp"
+                app:icon="@drawable/ic_file_download_white_24dp"
+                app:iconTint="@color/colorWhite" />
+
+            <!--<com.google.android.material.button.MaterialButton-->
+                <!--android:id="@+id/sharing_button"-->
+                <!--style="@style/Widget.MaterialComponents.Button.TextButton.Icon"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="SHARE"-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:textSize="10sp"-->
+                <!--app:backgroundTint="#c7a13a"-->
+                <!--app:cornerRadius="0dp"-->
+                <!--app:icon="@drawable/ic_share_white_24dp"-->
+                <!--app:iconTint="@color/colorWhite" />-->
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/metaTabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:tabGravity="fill"
+            app:tabInlineLabel="true"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/TabTextStyle" />
+        <TextView
+            android:id="@+id/record_subjects_detail"
+            android:layout_margin="@dimen/activity_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin_large" />
+
+        <LinearLayout
+            android:id="@+id/feedback_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/relevance_header"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:id="@+id/relevanceRatingBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/presentation_header"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:id="@+id/presentationRatingBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/methodology_header"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:id="@+id/methodologyRatingBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
